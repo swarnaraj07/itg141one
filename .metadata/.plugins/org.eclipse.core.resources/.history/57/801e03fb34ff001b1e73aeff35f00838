@@ -1,0 +1,18 @@
+
+public class ArthamaticExceptions {
+	{
+		public static void main(String args[])
+		{
+			try {
+				int a=25,b=0;
+				int c=a/b;
+				System.out.println("result ="+c);
+			}
+			catch(ArthamaticException e)
+			{
+				System.out.println("A number cant be divide by zero");
+			}
+		}
+	}
+
+}
